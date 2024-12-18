@@ -20,14 +20,14 @@ app.post('/send-email', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'abiodunojo453@gmail.com', // Replace with your Gmail address
-            pass: 'password159733', // Replace with your Gmail password (or app password if 2FA is enabled)
+            user: 'ojoabiodun627@gmail.com', // Replace with your Gmail address
+            pass: 'ojoabiodun123', // Replace with your Gmail password (or app password if 2FA is enabled)
         },
     });
 
     // Email options
     const mailOptions = {
-        from: 'abiodunojo453@gmail.com', // Sender address
+        from: 'ojoabiodun627@gmail.com', // Sender address
         to: email, // Recipient address
         subject: 'Test Email from Node.js', // Subject of the email
         text: 'This is a test email sent from Node.js using Nodemailer, from Phenomenal!', // Body of the email
